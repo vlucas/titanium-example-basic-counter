@@ -1,0 +1,26 @@
+  // styles/index.tss
+  ".container": {
+  	backgroundColor:"white",
+  }
+
+  "#countLabel": {
+  	width: Ti.UI.SIZE,
+  	height: Ti.UI.SIZE,
+  	color: "#000"
+    top: '40%',
+  	font: {
+  		fontSize: 80
+  	}
+  }
+
+  "Button": {
+    top: '55%',
+    left: 100,
+    right: 100,
+  	height: 38,
+    backgroundColor: '#2e65a9',
+    color: '#fff'
+  }
+
+
+

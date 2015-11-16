@@ -1,0 +1,13 @@
+// views/index.xml
+<Alloy>
+  <Model src="counter" id="counter" instance="true" />
+	<Window class="container">
+    <Label id="countLabel">{$.counter.count}</Label>
+    <Button onClick="inc">Add +1</Button>
+	</Window>
+</Alloy>
+
+
+
+
+
